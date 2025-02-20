@@ -2,7 +2,7 @@
 
 A Flutter application demonstrating in-app subscription implementation with a clean architecture approach and modern UI design. This project showcases how to handle in-app purchases for both iOS and Android platforms.
 
-<div align="left">
+<div align="center">
   <img src="https://i.imgur.com/YourScreenshotURL.png" alt="Subscription Plans" width="300"/>
 </div>
 
@@ -19,7 +19,7 @@ A Flutter application demonstrating in-app subscription implementation with a cl
 
 ## 🏗 Project Structure
 
-<div align="left">
+<div align="center">
   <table>
     <tr>
       <th>Project Structure</th>
@@ -53,7 +53,7 @@ lib/
     </tr>
     <tr>
       <td>
-        <div align="left">
+        <div align="center">
           <h4>Directory Overview:</h4>
           <ul>
             <li><strong>domain/</strong> - State management and data models</li>
@@ -77,7 +77,7 @@ lib/
 - Paid Apple Developer account (for iOS)
 - Google Play Developer account (for Android)
 
-<div align="left">
+<div align="center">
   <table>
     <tr>
       <th colspan="2">⚡ Quick Installation Guide</th>
@@ -121,7 +121,7 @@ flutter run</pre>
 
 ## 📱 Store Configuration
 
-<div align="left">
+<div align="center">
   <table>
     <tr>
       <th width="50%">iOS Configuration</th>
@@ -174,7 +174,7 @@ android:name="com.android.vending.BILLING" /&gt;</pre>
   </table>
 </div>
 
-<div align="left">
+<div align="center">
   <table>
     <tr>
       <th colspan="2">Testing Instructions</th>
@@ -200,7 +200,7 @@ android:name="com.android.vending.BILLING" /&gt;</pre>
   </table>
 </div>
 
-<div align="left">
+<div align="center">
   <table>
     <tr>
       <th>⚠️ Important Notes</th>
