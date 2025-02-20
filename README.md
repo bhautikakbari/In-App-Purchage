@@ -45,3 +45,103 @@ lib/
 - Android Studio (for Android)
 - Paid Apple Developer account (for iOS)
 - Google Play Developer account (for Android)
+
+## 📱 Store Configuration
+
+<div align="center">
+  <table>
+    <tr>
+      <th width="50%">iOS Configuration</th>
+      <th width="50%">Android Configuration</th>
+    </tr>
+    <tr>
+      <td>
+        <h4>Steps:</h4>
+        <ol>
+          <li>Open App Store Connect</li>
+          <li>Go to Features > In-App Purchases</li>
+          <li>Create Products with IDs:</li>
+        </ol>
+        <pre>
+ios_3months_sub
+ios_6months_sub
+ios_12months_sub</pre>
+        <h4>Required in Info.plist:</h4>
+        <pre>&lt;key&gt;SKPaymentQueue&lt;/key&gt;
+&lt;true/&gt;</pre>
+        <h4>Requirements:</h4>
+        <ul>
+          <li>Paid Apple Developer Account</li>
+          <li>App Store Connect Setup</li>
+          <li>Valid Bundle ID</li>
+        </ul>
+      </td>
+      <td>
+        <h4>Steps:</h4>
+        <ol>
+          <li>Open Google Play Console</li>
+          <li>Go to Monetization setup</li>
+          <li>Create Products with IDs:</li>
+        </ol>
+        <pre>
+android_3months_sub
+android_6months_sub
+android_12months_sub</pre>
+        <h4>Required in AndroidManifest.xml:</h4>
+        <pre>&lt;uses-permission 
+android:name="com.android.vending.BILLING" /&gt;</pre>
+        <h4>Requirements:</h4>
+        <ul>
+          <li>Google Play Console Account</li>
+          <li>One-time Registration Fee</li>
+          <li>Valid Package Name</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <th colspan="2">Testing Instructions</th>
+    </tr>
+    <tr>
+      <td width="50%">
+        <h4>iOS Testing</h4>
+        <ul>
+          <li>Create Sandbox Accounts</li>
+          <li>Use TestFlight for testing</li>
+          <li>Test on real iOS devices</li>
+        </ul>
+      </td>
+      <td width="50%">
+        <h4>Android Testing</h4>
+        <ul>
+          <li>Set up License Testing</li>
+          <li>Use Internal Testing Track</li>
+          <li>Test on real Android devices</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <th>⚠️ Important Notes</th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>Always implement server-side receipt validation</li>
+          <li>Test purchases in sandbox environment first</li>
+          <li>Handle network errors and edge cases</li>
+          <li>Store subscription status securely</li>
+          <li>Implement restore purchases functionality</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
