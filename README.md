@@ -19,22 +19,53 @@ A Flutter application demonstrating in-app subscription implementation with a cl
 
 ## 🏗 Project Structure
 
+<div align="center">
+  <table>
+    <tr>
+      <th>Project Structure</th>
+    </tr>
+    <tr>
+      <td>
+        <pre>
 lib/
 ├── features/
 │   └── store/
-│       ├── domain/          # State management models
+│       ├── domain/              # State models
 │       │   ├── product_state.dart
 │       │   └── purchase_state.dart
-│       ├── providers/       # Riverpod providers
+│       │
+│       ├── providers/           # State management
 │       │   └── subscription_provider.dart
-│       └── presentation/│           ├── screens/
+│       │
+│       └── presentation/        # UI components
+│           ├── screens/
 │           │   └── subscription_screen.dart
+│           │
 │           └── widgets/
 │               ├── subscription_card.dart
 │               └── current_plan_card.dart
+│
 ├── utils/
 │   └── app_messages.dart
-└── main.dart
+│
+└── main.dart</pre>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div align="left">
+          <h4>Directory Overview:</h4>
+          <ul>
+            <li><strong>domain/</strong> - State management and data models</li>
+            <li><strong>providers/</strong> - Riverpod providers for state management</li>
+            <li><strong>presentation/</strong> - UI components and screens</li>
+            <li><strong>utils/</strong> - Utility classes and constants</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## 🚀 Getting Started
 
