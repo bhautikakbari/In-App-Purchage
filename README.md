@@ -46,6 +46,48 @@ lib/
 - Paid Apple Developer account (for iOS)
 - Google Play Developer account (for Android)
 
+<div align="center">
+  <table>
+    <tr>
+      <th colspan="2">⚡ Quick Installation Guide</th>
+    </tr>
+    <tr>
+      <td>
+        <h4>1. Clone Repository</h4>
+        <pre style="background-color: #f6f8fa; padding: 10px; border-radius: 6px;">
+git clone https://github.com/yourusername/flutter_iap_store.git</pre>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>2. Install Dependencies</h4>
+        <pre style="background-color: #f6f8fa; padding: 10px; border-radius: 6px;">
+cd flutter_iap_store
+flutter pub get</pre>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>3. Run Application</h4>
+        <pre style="background-color: #f6f8fa; padding: 10px; border-radius: 6px;">
+flutter run</pre>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div style="background-color: #fff3cd; padding: 10px; border-radius: 6px; margin-top: 10px;">
+          <strong>Note:</strong> Make sure you have Flutter and necessary tools installed on your system.
+          <ul>
+            <li>Flutter SDK</li>
+            <li>Android Studio / Xcode</li>
+            <li>A connected device or emulator</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ## 📱 Store Configuration
 
 <div align="center">
